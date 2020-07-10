@@ -39,13 +39,13 @@ public class SalaryApp {
                if(salary >= 60000) {
                     System.out.println("your salary is " + salary + " EGP and it seems charming, what is your job?");
                     System.out.println("                               ");
-                    jobName = scanner.nextLine();  // i have a bug here, the IDE can't read this line
+                    jobName = scanner.nextLine();  
                     System.out.println("Awesome!");
                     System.out.println("if you want to organize another SALARY press 1 or 0 to finish the program");
                     byte continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
-                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the hald of the issue now 0 terminate the app but after one time not on spot
+                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
                         break;
                 }
                
@@ -56,7 +56,7 @@ public class SalaryApp {
                     byte continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
-                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the hald of the issue now 0 terminate the app but after one time not on spot
+                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
                         break;
                 }
                
@@ -76,7 +76,7 @@ public class SalaryApp {
                     byte continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
-                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the hald of the issue now 0 terminate the app but after one time not on spot
+                    else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
                         break;
                 }
             }
