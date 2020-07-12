@@ -7,6 +7,7 @@ public class SalaryApp {
     
     static String jobName;
     static double salary;
+    static byte continueOrStop;
     
     public static void main(String[] args){
             
@@ -42,7 +43,7 @@ public class SalaryApp {
                     jobName = scanner.nextLine();  
                     System.out.println("Awesome!");
                     System.out.println("if you want to organize another SALARY press 1 or 0 to finish the program");
-                    byte continueOrStop = scanner.nextByte();
+                    continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
                     else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
@@ -53,7 +54,7 @@ public class SalaryApp {
                     System.out.println("your salary is " + salary + " EGP and you should work hard on yourself to reach in a good position and change your life");
                     System.out.println("Keep working, and never give up");
                     System.out.println("if you want to organize another SALARY press 1 or 0 to finish the program");
-                    byte continueOrStop = scanner.nextByte();
+                    continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
                     else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
@@ -73,7 +74,7 @@ public class SalaryApp {
                     p5 = salary * 10 / 100;
                     System.out.println("finally this amount " + p5 + " EGP for saving, you should keep every month a small amount for emergincy cases");
                     System.out.println("To enter another salary press 1, to end press 0 ");
-                    byte continueOrStop = scanner.nextByte();
+                    continueOrStop = scanner.nextByte();
                     if(continueOrStop == 1)
                         openScreen();
                     else if(continueOrStop == 0)  // i have a bug here when i press 0 at the first time it's ok but the second time no // i solved the half of the issue now 0 terminate the app but after one time not on spot
